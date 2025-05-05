@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    width: 800px;
+}
+
+.baner {
+    background-color: rgb(182, 246, 245);
+    height: 30px;
+}
+
+.main {
+    background: url('/img/back.webp') no-repeat center;
+    background-size: cover;
+    height: 500px;
+}
+
+.logo {
+
+}
+
+
