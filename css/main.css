@@ -15,7 +15,6 @@ body {
 
 .container {
     height: 100%;
-    width: 100%;
     padding: 30px;
     width: 800px;
 }
@@ -118,4 +117,33 @@ body {
     text-decoration: underline;
     background-color: #B9DFE2;
     color: #437888;
+}
+
+.bottom {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-title {
+    font-size: 20px;
+    color: #a3e9e6;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drawings {
+    width: 70px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.second {
+    background-color: #B9DFE2;
+    padding: 5px 15px;
+    color: #fff;
+    margin-top: 40px;
 }
