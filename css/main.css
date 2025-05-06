@@ -7,7 +7,6 @@
 body {
     display: flex;
     flex-direction: column;
-    gap: 50px;
     align-items: center;
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -15,7 +14,7 @@ body {
 
 .container {
     height: 100%;
-    padding: 30px;
+    padding: 0;
     width: 800px;
 }
 
@@ -30,7 +29,7 @@ body {
 .main {
     background: url('/img/back.webp') no-repeat center;
     background-size: cover;
-    height: 400px;
+    height: 450px;
 }
 
 .top {
@@ -120,7 +119,7 @@ body {
 }
 
 .bottom {
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,7 +135,7 @@ body {
 }
 
 .drawings {
-    width: 90px;
+    width: 100px;
     padding: 20px;
     margin-top: 20px;
 }
@@ -145,5 +144,73 @@ body {
     background-color: #B9DFE2;
     padding: 5px 15px;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 50px;
 }
+
+.basic {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 450px;
+}
+
+.foto {
+    width: 50%;
+}
+
+.right-section {
+    background-color: #F8F9FB;
+    width: 50%;
+}
+
+.top-text {
+    text-align: center;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.hydra {
+    margin-bottom: 15px;
+    color: #B9DFE2;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.hydra-text {
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+.round-foto {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.pictures {
+    width: 70px;
+}
+
+.foto-title {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.foto-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    gap: 12px;
+}
+
+.text {
+    width: 22%;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+}
+
