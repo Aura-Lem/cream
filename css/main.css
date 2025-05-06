@@ -23,16 +23,46 @@ body {
 .baner {
     background-color: rgb(182, 246, 245);
     height: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .main {
     background: url('/img/back.webp') no-repeat center;
     background-size: cover;
-    height: 500px;
+    height: 400px;
 }
 
-.logo {
-
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+.language {
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.language:hover {
+    text-decoration: underline;
+}
+
+.main-nav {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-nav > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
 
