@@ -135,7 +135,7 @@ body {
 }
 
 .drawings {
-    width: 100px;
+    width: 110px;
     padding: 20px;
     margin-top: 20px;
 }
@@ -212,5 +212,26 @@ body {
     width: 22%;
     line-height: 1.5em;
     margin-bottom: 40px;
+}
+
+.white-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.signs {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.foto-title-2 {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    margin-bottom: 20px;
 }
 
