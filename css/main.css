@@ -129,22 +129,21 @@ body {
 .bottom-title {
     font-size: 20px;
     color: #a3e9e6;
-    width: 400px;
+    width: 60%;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .drawings {
-    width: 110px;
-    padding: 20px;
-    margin-top: 20px;
+    width: 70px;
+    margin-top: 40px;
 }
 
 .second {
     background-color: #B9DFE2;
     padding: 5px 15px;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .basic {
@@ -220,18 +219,38 @@ body {
     justify-content: center;
     align-items: center;
     height: 450px;
+    width: 100%;
 }
 
 .signs {
     display: flex;
-    gap: 80px;
+    gap: 40px;
     justify-content: center;
 }
 
-.foto-title-2 {
+.illustration {
+    width: 145px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.left-section {
+    background-color: #F8F9FB;
+    width: 50%;
+}
+
+.foto-trio {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: 125px;
-    margin-bottom: 20px;
+    gap: 20px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
+.trio {
+    width: 200px;
+    margin-bottom: 5px;
+}
