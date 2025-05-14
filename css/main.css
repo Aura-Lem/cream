@@ -15,7 +15,7 @@ body {
 .container {
     height: 100%;
     padding: 0;
-    width: 800px;
+    width: 100%;
 }
 
 .baner {
@@ -29,7 +29,7 @@ body {
 .main {
     background: url('/img/back.webp') no-repeat center;
     background-size: cover;
-    height: 450px;
+    height: 700px;
 }
 
 .top {
@@ -39,7 +39,7 @@ body {
 }
 
 .language {
-    padding: 20px;
+    padding: 30px;
     color: #fff;
     text-decoration: none;
 }
@@ -49,9 +49,9 @@ body {
 }
 
 .main-nav {
-    padding: 20px;
+    padding: 30px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .main-nav > a {
@@ -68,13 +68,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 25px;
+    gap: 40px;
+    margin-top: 25px;
 }
 
 .nav > a {
     text-decoration: none;
     color: #fff;
     font-size: 13px;
+    letter-spacing: 0.2rem;
 }
 
 .nav > a:hover {
@@ -87,13 +89,13 @@ body {
     flex-direction: column;
     float: right;
     align-items: flex-end;
-    padding: 30px;
+    padding: 50px;
 }
 
 .right-block > p:first-of-type {
     color: #fff;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 
 .title {
@@ -102,14 +104,15 @@ body {
     width: 200px;
     display: inline;
     text-align: right;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .link {
+    letter-spacing: 1px;
     color: #333;
     text-decoration: none;
     background-color: #fff;
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
 
 .link:hover {
@@ -119,7 +122,7 @@ body {
 }
 
 .bottom {
-    height: 450px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,30 +130,30 @@ body {
 }
 
 .bottom-title {
-    font-size: 20px;
+    font-size: 30px;
     color: #a3e9e6;
     width: 60%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 .drawings {
-    width: 70px;
+    width: 90px;
     margin-top: 40px;
 }
 
 .second {
     background-color: #B9DFE2;
-    padding: 5px 15px;
+    padding: 5px 20px;
     color: #fff;
-    margin-top: 60px;
+    margin-top: 110px;
 }
 
 .basic {
     display: flex;
     flex-direction: row;
     text-align: center;
-    height: 450px;
+    height: 700px;
 }
 
 .foto {
@@ -165,37 +168,40 @@ body {
 .top-text {
     text-align: center;
     padding: 30px;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .hydra {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     color: #B9DFE2;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: 2px;
 }
 
 .hydra-text {
     font-size: 13px;
-    line-height: 1.5em;
+    line-height: 1.7em;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .round-foto {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     justify-content: center;
 }
 
 .pictures {
-    width: 70px;
+    width: 130px;
+    margin-top: 30px;
 }
 
 .foto-title {
     display: flex;
     justify-content: center;
-    gap: 35px;
-    margin-top: 12px;
+    gap: 115px;
+    margin-top: 30px;
     margin-bottom: 8px;
 }
 
@@ -204,7 +210,8 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 10px;
-    gap: 12px;
+    gap: 30px;
+    margin-bottom: 30px;
 }
 
 .text {
@@ -218,20 +225,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 700px;
     width: 100%;
 }
 
 .signs {
     display: flex;
-    gap: 40px;
+    gap: 110px;
     justify-content: center;
 }
 
 .illustration {
-    width: 145px;
+    width: 200px;
     padding: 20px;
     margin-top: 20px;
+}
+
+.text2 {
+    width: 280px;
+    margin-bottom: 70px;
 }
 
 .left-section {
@@ -245,12 +257,11 @@ body {
     justify-content: center;
     gap: 20px;
     width: 80%;
-    margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
 }
 
 .trio {
-    width: 200px;
-    margin-bottom: 5px;
+    width: 350px;
+    margin-bottom: 10px;
 }
